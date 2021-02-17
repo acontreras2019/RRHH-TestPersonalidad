@@ -1,0 +1,90 @@
+{
+    "id": 1,
+    "name": "Test de Personalidad ",
+    "description": "JavaScript Quiz (Basic Multiple Choice Questions for JavaScript Developers)",
+    "questions": [
+        {
+            "id": 1010,
+            "name": "Pregunta: En una fiesta usted interactúa",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "a) con muchas personas, incluyendo desconocidos",
+                    "isAnswer": false,
+                    "valueRes": "E"
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "b) con pocas personas, preferiblemente conocidos por usted",
+                    "isAnswer": true,
+                    "valueRes": "I"
+                }
+                
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+      
+        {
+            "id": 1011,
+            "name": "es usted",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "a) mas realista que especulativo",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "b) mas especulativo que realista",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        
+         
+        {
+            "id": 1012,
+            "name": "es peor",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "a) tener su mente en las nubes",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "b) vivir en una rutina",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+        
+    ]
+}
