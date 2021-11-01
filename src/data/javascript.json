@@ -1,10 +1,11 @@
 {
     "id": 1,
-    "name": "Test de Personalidad ",
+    "name": "Myers-Briggs Type Indicator (MBTI) ",
     "description": "JavaScript Quiz (Basic Multiple Choice Questions for JavaScript Developers)",
     "questions": [
         {
             "id": 1010,
+            "numeroPregunta":"1",
             "name": "Pregunta: En una fiesta usted interactúa",
             "questionTypeId": 1,
             "options": [
@@ -34,6 +35,7 @@
         {
             "id": 1011,
             "name": "es usted",
+            "numeroPregunta":"2",
             "questionTypeId": 1,
             "options": [
                 {
@@ -44,7 +46,7 @@
                     "valueRes": "S"
                 },
                 {
-                    "id": 1055,
+                    "id": 1058,
                     "questionId": 1010,
                     "name": "b) mas especulativo que realista",
                     "isAnswer": true,
@@ -61,18 +63,19 @@
          
         {
             "id": 1012,
+            "numeroPregunta":"3",
             "name": "es peor",
             "questionTypeId": 1,
             "options": [
                 {
-                    "id": 1057,
+                    "id": 1059,
                     "questionId": 1010,
                     "name": "a) tener su mente en las nubes",
                     "isAnswer": false,
                     "valueRes": "S"
                 },
                 {
-                    "id": 1055,
+                    "id": 1060,
                     "questionId": 1010,
                     "name": "b) vivir en una rutina",
                     "isAnswer": true,
@@ -84,7 +87,1826 @@
                 "name": "Multiple Choice",
                 "isActive": true
             }
-        }
+        },
+
+        {
+            "id": 1013,
+            "numeroPregunta":"4",
+            "name": "Que le impresiona mas a usted?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1061,
+                    "questionId": 1010,
+                    "name": "a) Los principios, los razonamientos",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1062,
+                    "questionId": 1010,
+                    "name": "b) las emociones, los sentimientos",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+
+        {
+            "id": 1014,
+            "numeroPregunta":"5",
+            "name": "Es usted mas atraído por",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1063,
+                    "questionId": 1010,
+                    "name": "a) Lo convincente, aunque sea teórico",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1064,
+                    "questionId": 1010,
+                    "name": "b) Lo experimentable",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
         
+        {
+            "id": 1015,
+            "numeroPregunta":"6",
+            "name": "Prefiere usted trabajar",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1065,
+                    "questionId": 1010,
+                    "name": "a) Con base en fechas limites",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1066,
+                    "questionId": 1010,
+                    "name": "b) Con flexibilidad en fechas o plazos",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        
+        {
+            "id": 1016,
+            "numeroPregunta":"7",
+            "name": "Toma usted sus decisiones",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1067,
+                    "questionId": 1010,
+                    "name": "a) Muy cuidadosamente",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1068,
+                    "questionId": 1010,
+                    "name": "b) Algo impulsivamente",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        
+        {
+            "id": 1017,
+            "numeroPregunta":"8",
+            "name": "Cuando usted va a una fiesta",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1069,
+                    "questionId": 1010,
+                    "name": "a) Se queda hasta muy tarde y siente que sus energías crecen con el tiempo",
+                    "isAnswer": false,
+                    "valueRes": "E"
+                },
+                {
+                    "id": 1070,
+                    "questionId": 1010,
+                    "name": "b) Se retira temprano y a veces siente que su energía reduce conforme pasa el tiempo",
+                    "isAnswer": true,
+                    "valueRes": "I"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        
+        {
+            "id": 1018,
+            "numeroPregunta":"9",
+            "name": "A veces le atrae más ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1071,
+                    "questionId": 1010,
+                    "name": "a) Las personas sensibles",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1072,
+                    "questionId": 1010,
+                    "name": "b) Las personas imaginativas",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1019,
+            "numeroPregunta":"10",
+            "name": "Se interesa más ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1073,
+                    "questionId": 1010,
+                    "name": "a) Por lo que es real , lo concreto , lo existente",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1074,
+                    "questionId": 1010,
+                    "name": "b) Por lo que es posible , lo potencial",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+
+
+
+        {
+            "id": 1020,
+            "numeroPregunta":"11",
+            "name": "Cuando usted juzga a otras personas es influido ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1075,
+                    "questionId": 1010,
+                    "name": "a) Mas por leyes, normas criterios ya establecidos que por las circunstancias",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1076,
+                    "questionId": 1010,
+                    "name": "b) Mas por las circunstancias que pro leyes, normas o criterios formales",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1021,
+            "numeroPregunta":"12",
+            "name": "Cuando se relaciona o se dirige hacia otra persona en su, trabajo la inclinación es más",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1077,
+                    "questionId": 1010,
+                    "name": "a) Objetiva,  racional, analítica",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1078,
+                    "questionId": 1010,
+                    "name": "b) Personal, afectiva",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1022,
+            "numeroPregunta":"13",
+            "name": "En general, usted tiende a ser más ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1079,
+                    "questionId": 1010,
+                    "name": "a) Puntual en sus responsabilidades",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1080,
+                    "questionId": 1010,
+                    "name": "b) Algo impuntual, a veces se atrasa",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1023,
+            "numeroPregunta":"14",
+            "name": "Que le molesta a usted más",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1081,
+                    "questionId": 1010,
+                    "name": "a) Tener sus cosas sin terminar ",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1082,
+                    "questionId": 1010,
+                    "name": "b) Tener sus cosas terminadas",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1024,
+            "numeroPregunta":"15",
+            "name": "En los grupos sociales usted se mantiene ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1083,
+                    "questionId": 1010,
+                    "name": "a) Informado de de lo que le pasa a otros",
+                    "isAnswer": false,
+                    "valueRes": "E"
+                },
+                {
+                    "id": 1084,
+                    "questionId": 1010,
+                    "name": "b) Aparte de las noticias de lo que le pasa a otros",
+                    "isAnswer": true,
+                    "valueRes": "I"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1025,
+            "numeroPregunta":"16",
+            "name": "Cuando debe hacer cosas ordinarias, normales que personas también hacen",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1085,
+                    "questionId": 1010,
+                    "name": "a) Usted las hace en forma convencional, similar a los demás",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1086,
+                    "questionId": 1010,
+                    "name": "b) Usted las hace a su propia manera",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1026,
+            "numeroPregunta":"17",
+            "name": "Los escritores deberían ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1087,
+                    "questionId": 1010,
+                    "name": "a) Decir las cosas directamente y claramente",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1088,
+                    "questionId": 1010,
+                    "name": "b) Expresar las cosas más bien en forma de analogía, metáforas, imaginativamente",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1027,
+            "numeroPregunta":"18",
+            "name": "Que le atrae a usted más",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1089,
+                    "questionId": 1010,
+                    "name": "a) La consistencia en el razonamiento",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1090,
+                    "questionId": 1010,
+                    "name": "b) La armonía en las relaciones humanas",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1028,
+            "numeroPregunta":"19",
+            "name": "Usted se siente mejor emitiendo ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1089,
+                    "questionId": 1010,
+                    "name": "a) Juicios y decisiones lógicas, racionales , basadas en hechos, datos y razonamientos",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1090,
+                    "questionId": 1010,
+                    "name": "b) Juicios y decisiones basadas en valores y principios",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1029,
+            "numeroPregunta":"20",
+            "name": "Como prefiere usted las cosas ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1091,
+                    "questionId": 1010,
+                    "name": "a) Establecidas y decididas, muy planeadas",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1092,
+                    "questionId": 1010,
+                    "name": "b) No estableciditas y no planeadas, con flexibilidad",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+
+        {
+            "id": 1030,
+            "numeroPregunta":"21",
+            "name": "Diría usted que se considera una persona",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1093,
+                    "questionId": 1010,
+                    "name": "a) Muy seria , determinada",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1094,
+                    "questionId": 1010,
+                    "name": "b) Flexible, abierta",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1031,
+            "numeroPregunta":"22",
+            "name": "Cuando usted va a hacer una llamada telefónica",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1095,
+                    "questionId": 1010,
+                    "name": "a) Rara vez repasa que es lo que va a decir en forma completa",
+                    "isAnswer": false,
+                    "valueRes": "E"
+                },
+                {
+                    "id": 1096,
+                    "questionId": 1010,
+                    "name": "b) Repasa lo que va a decir ",
+                    "isAnswer": true,
+                    "valueRes": "I"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1032,
+            "numeroPregunta":"23",
+            "name": "Los hechos",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1097,
+                    "questionId": 1010,
+                    "name": "a) Hablan por sí mismos y deben juzgarse directamente",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1098,
+                    "questionId": 1010,
+                    "name": "b) Ilustran principios, pueden ser relativos",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1033,
+            "numeroPregunta":"24",
+            "name": "Las personas visionarias que piensan mucho en el futuro",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1099,
+                    "questionId": 1010,
+                    "name": "a) Son algo molestas",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1100,
+                    "questionId": 1010,
+                    "name": "b) Son fascinantes",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1034,
+            "numeroPregunta":"25",
+            "name": "Usted es una persona",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1101,
+                    "questionId": 1010,
+                    "name": "a) Que actúa con cabeza fría",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1102,
+                    "questionId": 1010,
+                    "name": "b) Que actúa con corazón caliente",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1035,
+            "numeroPregunta":"26",
+            "name": "Espero",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1103,
+                    "questionId": 1010,
+                    "name": "a) Dejar de aplicar normas o reglamentos",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1104,
+                    "questionId": 1010,
+                    "name": "b) Dejar de ser compasivo",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1036,
+            "numeroPregunta":"27",
+            "name": "Uno debería de dejar que los eventos ocurrieran",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1105,
+                    "questionId": 1010,
+                    "name": "a) Solo por cuidadosa elección, planeadamente",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1106,
+                    "questionId": 1010,
+                    "name": "b) De acuerdo con la suerte o al azar, con flexibilidad",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1037,
+            "numeroPregunta":"28",
+            "name": "Usted se siente mejor",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1107,
+                    "questionId": 1010,
+                    "name": "a) Usted se siente mejor",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1108,
+                    "questionId": 1010,
+                    "name": "b) Habiendo tenido la opción para comprar sin haberlo hecho",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1038,
+            "numeroPregunta":"29",
+            "name": "Cuando usted está con otra persona",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1109,
+                    "questionId": 1010,
+                    "name": "a) Inicia la conversación ",
+                    "isAnswer": false,
+                    "valueRes": "E"
+                },
+                {
+                    "id": 1110,
+                    "questionId": 1010,
+                    "name": "b)Espera que la otra persona la inicia ",
+                    "isAnswer": true,
+                    "valueRes": "I"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1039,
+            "numeroPregunta":"30",
+            "name": "El sentido común es",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1111,
+                    "questionId": 1010,
+                    "name": "a) Raramente cuestionable ",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1112,
+                    "questionId": 1010,
+                    "name": "b) Frecuentemente cuestionable ",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1040,
+            "numeroPregunta":"31",
+            "name": "Usted aprecia más en los niños",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1113,
+                    "questionId": 1010,
+                    "name": "a) Que ellos  hagan uso de sus propias habilidades, que practiquen las cosas, que hagan labores físicas ",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1114,
+                    "questionId": 1010,
+                    "name": "b) Que ellos ejerciten sus fantasía, su imaginación, que hagan juegos mentales ",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1041,
+            "numeroPregunta":"32",
+            "name": "En la toma de decisiones, usted se siente mejor considerando",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1113,
+                    "questionId": 1010,
+                    "name": "a) Criterios fijos (estándares)",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1114,
+                    "questionId": 1010,
+                    "name": "b) Sentimientos ",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1042,
+            "numeroPregunta":"33",
+            "name": "Es usted",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1115,
+                    "questionId": 1010,
+                    "name": "a) Más firme que gentil",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1116,
+                    "questionId": 1010,
+                    "name": "b) Más gentil que firme",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1043,
+            "numeroPregunta":"34",
+            "name": "Que es más admirable",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1117,
+                    "questionId": 1010,
+                    "name": "a) La habilidad para organizar y ser metódico ",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1118,
+                    "questionId": 1010,
+                    "name": "b) La habilidad para aceptarse y ejecutar las cosas flexiblemente",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1044,
+            "numeroPregunta":"35",
+            "name": "Que valora  más usted",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1119,
+                    "questionId": 1010,
+                    "name": "a) Lo definitivo",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1120,
+                    "questionId": 1010,
+                    "name": "b) Lo flexible",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1045,
+            "numeroPregunta":"36",
+            "name": "Cuando usted experimenta nuevas relaciones interpersonales ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1121,
+                    "questionId": 1010,
+                    "name": "a) Se siente con más estímulo y energía  ",
+                    "isAnswer": false,
+                    "valueRes": "E"
+                },
+                {
+                    "id": 1122,
+                    "questionId": 1010,
+                    "name": "b) Siente que su energía reduce",
+                    "isAnswer": true,
+                    "valueRes": "I"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1046,
+            "numeroPregunta":"37",
+            "name": "Usted es frecuentemente",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1123,
+                    "questionId": 1010,
+                    "name": "a) Una persona de tipo práctico",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1124,
+                    "questionId": 1010,
+                    "name": "b) Una persona de tipo imaginativo",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+      
+        {
+            "id": 1047,
+            "numeroPregunta":"38",
+            "name": "Usted tiene más",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1127,
+                    "questionId": 1010,
+                    "name": "a) Ver como otros pueden ser útiles, como hacen o concretan las cosas",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1128,
+                    "questionId": 1010,
+                    "name": "b) Ver como otros perciben, piensan e imaginan",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1048,
+            "numeroPregunta":"39",
+            "name": "Que le satisface mas",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1130,
+                    "questionId": 1010,
+                    "name": "a) Discutir un asunto exhaustivamente antes de decidir sobre si mismo",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1131,
+                    "questionId": 1010,
+                    "name": "b) Arribar rápidamente a una decisión sobre un asunto",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1049,
+            "numeroPregunta":"40",
+            "name": "Que le controla a usted mas",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1132,
+                    "questionId": 1010,
+                    "name": "a) El cerebro",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1133,
+                    "questionId": 1010,
+                    "name": "b) El corazón",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1050,
+            "numeroPregunta":"41",
+            "name": "Se siente usted mejor con un trabajo ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1134,
+                    "questionId": 1010,
+                    "name": "a) Contratado, fijo permanente",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1135,
+                    "questionId": 1010,
+                    "name": "b) Hecho es forma casual, temporal",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1051,
+            "numeroPregunta":"42",
+            "name": "Tiende usted a buscar",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1136,
+                    "questionId": 1010,
+                    "name": "a) Lo ordenado",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1137,
+                    "questionId": 1010,
+                    "name": "b) Lo que salga",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1052,
+            "numeroPregunta":"43",
+            "name": "Usted Prefiere",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1138,
+                    "questionId": 1010,
+                    "name": "a) Muchos amigos y pocos contactos con ellos.",
+                    "isAnswer": false,
+                    "valueRes": "E"
+                },
+                {
+                    "id": 1139,
+                    "questionId": 1010,
+                    "name": "b) Pocos amigos y muchos contactos con ellos.",
+                    "isAnswer": true,
+                    "valueRes": "I"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1053,
+            "numeroPregunta":"44",
+            "name": "Usted busca mas",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1140,
+                    "questionId": 1010,
+                    "name": "a) Los hechos",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1141,
+                    "questionId": 1010,
+                    "name": "b) Los principios",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1054,
+            "numeroPregunta":"45",
+            "name": "Que le interesa a usted mas",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1142,
+                    "questionId": 1010,
+                    "name": "a) Producción y distribución",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1143,
+                    "questionId": 1010,
+                    "name": "b) Diseño e investigación ",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1055,
+            "numeroPregunta":"46",
+            "name": "Cual frase le agradaría a usted escuchar mas acerca de usted mismo",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1144,
+                    "questionId": 1010,
+                    "name": "a) Esa es una persona muy lógica",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1145,
+                    "questionId": 1010,
+                    "name": "b) Esa es una persona muy emotiva",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1056,
+            "numeroPregunta":"47",
+            "name": "En usted mismo valora mas",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1146,
+                    "questionId": 1010,
+                    "name": "a) Ser seguro, no tener dudas",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1147,
+                    "questionId": 1010,
+                    "name": "b) Ser fiel, devoto, comprometido",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1057,
+            "numeroPregunta":"48",
+            "name": "Que prefiere usted con más frecuencia",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1148,
+                    "questionId": 1010,
+                    "name": "a) Afirmaciones finales e inalterables",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1149,
+                    "questionId": 1010,
+                    "name": "b) Afirmaciones preliminares y tentativas ",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1058,
+            "numeroPregunta":"49",
+            "name": "Usted se siente mas confortable",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1150,
+                    "questionId": 1010,
+                    "name": "a) Después de tomar una decisión",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1151,
+                    "questionId": 1010,
+                    "name": "b) Antes de tomar una decisión",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1059,
+            "numeroPregunta":"50",
+            "name": "Usted",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1152,
+                    "questionId": 1010,
+                    "name": "a) Habla fácil y largamente con extraños",
+                    "isAnswer": false,
+                    "valueRes": "E"
+                },
+                {
+                    "id": 1153,
+                    "questionId": 1010,
+                    "name": "b) Encuentra poco que decir a los extraños ",
+                    "isAnswer": true,
+                    "valueRes": "I"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1060,
+            "numeroPregunta":"51",
+            "name": "Usted confía más en su",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1154,
+                    "questionId": 1010,
+                    "name": "a) Experiencia",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1155,
+                    "questionId": 1010,
+                    "name": "b) Corazonadas, intuición",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1061,
+            "numeroPregunta":"52",
+            "name": "Usted se percibe como una persona ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1156,
+                    "questionId": 1010,
+                    "name": "a) Mas practica que ingeniosa",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1157,
+                    "questionId": 1010,
+                    "name": "b) Mas ingeniosa que practica",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1062,
+            "numeroPregunta":"53",
+            "name": "Cual persona merece más reconocimiento",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1158,
+                    "questionId": 1010,
+                    "name": "a) Una que guie su razonamiento con razonamiento claro y lógico",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1159,
+                    "questionId": 1010,
+                    "name": "b) Una que guie su desempeño con sentimientos profundo",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1063,
+            "numeroPregunta":"54",
+            "name": "Usted tiende a ser mas",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1160,
+                    "questionId": 1010,
+                    "name": "a) Objetivo, lógico",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1161,
+                    "questionId": 1010,
+                    "name": "b) Empatetico, subjetivo",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1064,
+            "numeroPregunta":"55",
+            "name": "Usted prefiere",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1162,
+                    "questionId": 1010,
+                    "name": "a) Estar seguro que las cosas y detalles estén bien arregladas",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1163,
+                    "questionId": 1010,
+                    "name": "b) Dejas que las cosas pasen con flexibilidad ",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }, 
+        {
+            "id": 1065,
+            "numeroPregunta":"56",
+            "name": "En las relaciones personales, las cosas deberían",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1164,
+                    "questionId": 1010,
+                    "name": "a) Ser negociadas, definidas, muy claras",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1165,
+                    "questionId": 1010,
+                    "name": "b) Ser circunstanciales, espontaneas",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1066,
+            "numeroPregunta":"57",
+            "name": "Cuando el teléfono suena",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1166,
+                    "questionId": 1010,
+                    "name": "a) Usted quiere ser el primero en contestar",
+                    "isAnswer": false,
+                    "valueRes": "E"
+                },
+                {
+                    "id": 1167,
+                    "questionId": 1010,
+                    "name": "b) Usted desea que alguien más lo conteste",
+                    "isAnswer": true,
+                    "valueRes": "I"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1067,
+            "numeroPregunta":"58",
+            "name": "Que aprecia mas en una persona ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1168,
+                    "questionId": 1010,
+                    "name": "a) Un fuerte sentido de la realidad",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1169,
+                    "questionId": 1010,
+                    "name": "b) Una viva imaginación",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1068,
+            "numeroPregunta":"59",
+            "name": "Usted es más atraído por",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1170,
+                    "questionId": 1010,
+                    "name": "a) Lo fundamental, lo básico en cada situación ",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1171,
+                    "questionId": 1010,
+                    "name": "b) Lo sobresaliente, lo distinto en cada situación ",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1069,
+            "numeroPregunta":"60",
+            "name": "Que error es más grave",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1172,
+                    "questionId": 1010,
+                    "name": "a) Ser demasiado apasionado",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1173,
+                    "questionId": 1010,
+                    "name": "b) Ser demasiado objetivo",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1070,
+            "numeroPregunta":"61",
+            "name": "Usted se ve a sí mismo básicamente como",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1174,
+                    "questionId": 1010,
+                    "name": "a) Una persona de cabeza dura",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1175,
+                    "questionId": 1010,
+                    "name": "b) Una persona de corazón suave",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1071,
+            "numeroPregunta":"62",
+            "name": "Que situación le atrae mas",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1176,
+                    "questionId": 1010,
+                    "name": "a) Lo estructurado y programado",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1177,
+                    "questionId": 1010,
+                    "name": "b)Lo no estructurado y no programado",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1072,
+            "numeroPregunta":"63",
+            "name": "Usted es una persona",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1178,
+                    "questionId": 1010,
+                    "name": "a) Mas rutinaria que caprichosa o antojadiza",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1179,
+                    "questionId": 1010,
+                    "name": "b) Mas caprichosa y antojadiza que rutinaria",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1073,
+            "numeroPregunta":"64",
+            "name": "Usted es una persona más inclinada a",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1180,
+                    "questionId": 1010,
+                    "name": "a) Interactuar con facilidad con otras personas",
+                    "isAnswer": false,
+                    "valueRes": "E"
+                },
+                {
+                    "id": 1181,
+                    "questionId": 1010,
+                    "name": "b) Ser reservada, con inclinación a interactuar con muy pocas personas",
+                    "isAnswer": true,
+                    "valueRes": "I"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1074,
+            "numeroPregunta":"65",
+            "name": "En lo escrito usted prefiere",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1182,
+                    "questionId": 1010,
+                    "name": "a) Mas lo literal",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1183,
+                    "questionId": 1010,
+                    "name": "b) Mas lo figurativo",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1075,
+            "numeroPregunta":"66",
+            "name": "Es más fácil para usted",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1184,
+                    "questionId": 1010,
+                    "name": "a) Identificarse con otros",
+                    "isAnswer": false,
+                    "valueRes": "S"
+                },
+                {
+                    "id": 1185,
+                    "questionId": 1010,
+                    "name": "b) Utilizar otros",
+                    "isAnswer": true,
+                    "valueRes": "N"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1076,
+            "numeroPregunta":"67",
+            "name": "Que desea más para usted mismo",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1186,
+                    "questionId": 1010,
+                    "name": "a) Claridad de razonamiento",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1187,
+                    "questionId": 1010,
+                    "name": "b) Tener una fuerte pasión hacia otros",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1077,
+            "numeroPregunta":"68",
+            "name": "Que podría ser peor",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1186,
+                    "questionId": 1010,
+                    "name": "a) Ser indiscriminado, parecido a otros, con criterios similares a los de otras personas",
+                    "isAnswer": false,
+                    "valueRes": "T"
+                },
+                {
+                    "id": 1187,
+                    "questionId": 1010,
+                    "name": "b) Ser muy crítico algo inconforme",
+                    "isAnswer": true,
+                    "valueRes": "F"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1078,
+            "numeroPregunta":"69",
+            "name": "Usted prefiere acontecimientos y eventos",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1188,
+                    "questionId": 1010,
+                    "name": "a) Planeados",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1189,
+                    "questionId": 1010,
+                    "name": "b) No planeados",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1079,
+            "numeroPregunta":"70",
+            "name": "Usted tiende a ser una persona ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1190,
+                    "questionId": 1010,
+                    "name": "a) Mas deliberada y planeadora que espontanea",
+                    "isAnswer": false,
+                    "valueRes": "J"
+                },
+                {
+                    "id": 1191,
+                    "questionId": 1010,
+                    "name": "b) Mas espontanea que deliberada y planea",
+                    "isAnswer": true,
+                    "valueRes": "P"
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
     ]
 }

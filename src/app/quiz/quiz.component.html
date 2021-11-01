@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-6">
-    <h3>Test en Linea</h3>
+    <!-- <h4>RRHH en La Informática</h4> -->
   </div>
   <!-- <div class="col-6 text-right">
     Select Test:
@@ -13,10 +13,18 @@
 
 </div>
 <div id="quiz">
+  <div class="text-center" >
+ 
+      <img src="assets/img/logoYamer.jpeg" style="width: 300px; height: auto;"/>
+    <!-- <h2>Bienvenido a YAMER</h2> -->
+  </div>
+
+  <hr />
+  <h2 class="text-center font-weight-normal">Test de Personalidad:</h2>
   <h2 class="text-center font-weight-normal">{{quiz.name}}</h2>
   <hr />
  <div *ngIf="mode=='intro' && quiz">
-  <div class="card">
+  <div class="card" style="background-color: #8ac4d0;">
     <div class="card-body">
       <div class="card-title">
         <h5>Identificando Nuestro Tipo de Personalidad</h5>
@@ -25,23 +33,39 @@
         <h5>Instrucciones</h5>
         <p>{{instrucciones}}</p>
       </div>
+      <form>
+        <div class="row">
+          <div class="col-3"><label> Nombre Completo </label></div>
+          <div class="col-8"><input type="text" style="width: 450px;" [(ngModel)]="user.name" name="name" /></div>
+        </div>
+        <div class="row">
+          <div class="col-3"><label> Email</label></div>
+          <div class="col-8"><input type="text" style="width: 450px;" [(ngModel)]="user.email" name="email" /></div>  
+        </div>
+        <div class="row">
+          <div class="col-3"> <label> Identidad</label></div>
+          <div class="col-8"> <input type="text" style="width: 450px;" [(ngModel)]="user.id" name="id" /></div>  
+         
+        </div>
+
+      </form>
     </div>
   </div>
   <div class="text-center">
-    
-    <button class="btn btn-default" *ngIf="config.allowBack" (click)="goTo(0);">Comenzar</button>
+   <br> 
+    <button class="btn"  style="background-color:#28527a; color: white" *ngIf="config.allowBack" (click)="goTo(0);">Comenzar</button>
   </div>
  </div>
   <div *ngIf="mode=='quiz' && quiz">
     <div *ngFor="let question of filteredQuestions;">
-      <div class="badge badge-info">Question {{pager.index + 1}} of {{pager.count}}.</div>
-      <div *ngIf="config.duration" class="badge badge-info float-right">Time: {{ellapsedTime}} / {{duration}}</div>
+      <div class="badge" style="background-color: #a2d0c1;">Question {{pager.index + 1}} of {{pager.count}}.</div>
+      <!-- <div *ngIf="config.duration" class="badge badge-info float-right">Time: {{ellapsedTime}} / {{duration}}</div> -->
       <h3 class="font-weight-normal">{{pager.index + 1}}.
         <span [innerHTML]="question.name"></span>
       </h3>
-      <div class="row text-left options">
+      <div class="row text-left options" >
         <div class="col-6" *ngFor="let option of question.options">
-          <div class="option">
+          <div class="option"  style="height:100px; background-color: #8ac4d0">
             <label class="font-weight-normal" [attr.for]="option.id">
               <input id="{{option.id}}" type="checkbox" [(ngModel)]="option.selected" (change)="onSelect(question, option);" /> {{option.name}}
             </label>
@@ -53,7 +77,7 @@
     <div class="text-center">
       <button class="btn btn-default" *ngIf="config.allowBack" (click)="goTo(0);">First</button>
       <button class="btn btn-default" *ngIf="config.allowBack" (click)="goTo(pager.index - 1);">Prev</button>
-      <button class="btn btn-primary" (click)="goTo(pager.index + 1);">Next</button>
+      <button class="btn" style="background-color: #a7c5eb;" (click)="goTo(pager.index + 1);">Next</button>
       <button class="btn btn-default" *ngIf="config.allowBack" (click)="goTo(pager.count - 1);">Last</button>
       <!--<pagination *ngIf="config.showPager" direction-links="false" total-items="totalItems" items-per-page="itemsPerPage" ng-model="currentPage" ng-change="pageChanged()"></pagination>-->
     </div>
@@ -80,69 +104,66 @@
     <h4 class="alert alert-info text-center">You may close this window now.</h4>
   </div>
   <div class="result" *ngIf="mode=='totales'">
-    <h2>Resultado del Test</h2>
-    <div class="result-question">
-      
-      <div class="row">
-        <div class="col-12"><h5>Totales</h5></div>
-      </div>
-      <div class="row">
-        <div class="col"><h5>P-I</h5></div>
-        <div class="col"><h5>P-E</h5></div>
-        <div class="col"><h5>P-S</h5></div>
-        <div class="col"><h5>P-N</h5></div>
-        <div class="col"><h5>P-T</h5></div>
-        <div class="col"><h5>P-F</h5></div>
-        <div class="col"><h5>P-J</h5></div>
-        <div class="col"><h5>P-P</h5></div>
-      </div>
-      <div class="row">
-        <div class="col"><h5>{{Icount}}</h5></div>
-        <div class="col"><h5>{{Ecount}}</h5></div>
-        <div class="col"><h5>{{Scount}}</h5></div>
-        <div class="col"><h5>{{Ncount}}</h5></div>
-        <div class="col"><h5>{{Tcount}}</h5></div>
-        <div class="col"><h5>{{Fcount}}</h5></div>
-        <div class="col"><h5>{{Jcount}}</h5></div>
-        <div class="col"><h5>{{Pcount}}</h5></div>
+    <h4>Resultado del Test</h4>
+    <p> Esta hoja de resultados se envió al departamento de RRHH de YAMER con copia a {{user.email}}.</p>
+    <div class="result-question" >
+      <div class="card" style="background-color: #8ac4d0;">
+        <div class="card-body">
+          <h4>Nombre: {{user.name}} </h4>
+          <table class="table table-bordered"  >
+          <tbody >
+              <tr >
+                <th>I</th>
+                <th>E</th>
+                <th>S</th>
+                <th>N</th>
+                <th>T</th>
+                <th>F</th>
+                <th>J</th>
+                <th>P</th>      
+              </tr>
+              <tr>
+                <td>{{Icount}}</td>
+                <td>{{Ecount}}</td>
+                <td>{{Scount}}</td>
+                <td>{{Ncount}}</td>
+                <td>{{Tcount}}</td>
+                <td>{{Fcount}}</td>
+                <td>{{Jcount}}</td>
+                <td>{{Pcount}}</td>     
+              </tr>
+              <tr>
+                <th colspan="8">SubTipos Obtenidos</th>
+              </tr>
+              <tr>
+                <td colspan="2">SubTipo 1</td>
+                <td colspan="2">SubTipo 2</td>
+                <td colspan="2">SubTipo 3</td>
+                <td colspan="2">SubTipo 4</td>
+              </tr>
+              <tr>
+                <td colspan="2">{{subTipo1}}</td>
+                <td colspan="2">{{subTipo2}}</td>
+                <td colspan="2">{{subTipo3}}</td>
+                <td colspan="2">{{subTipo4}}</td>
+              </tr>
+              <tr>
+                <th colspan="8"><h5>Personalidad Tipo {{subTipo1}}{{subTipo2}}{{subTipo3}}{{subTipo4}} </h5></th>
+              </tr>
+              <tr>
+                <th colspan="8"> <textarea disabled= true class="form-control" id="exampleFormControlTextarea5" rows="5" >{{diagnosticoPersonalidad}}</textarea></th>
+              </tr>
+          </tbody>
+          </table> 
+        </div>
       </div>
     </div>
 
-    <div class="result-question">
-      
-      <div class="row">
-        <div class="col-12"><h5>SubTipos Obtenidos</h5></div>
-      </div>
-      <div class="row">
-        <div class="col" colspan="2"><h5>SubTipo 1 </h5></div>
-        <div class="col" colspan="2"><h5>SubTipo 2</h5></div>
-        <div class="col" colspan="2"><h5>SubTipo 3</h5></div>
-        <div class="col" colspan="2"><h5>SubTipo 4</h5></div>
-       
-      </div>
-      <div class="row">
-        <div class="col" colspan="2"><h5>{{subTipo1}} </h5></div>
-        <div class="col" colspan="2"><h5>{{subTipo2}}</h5></div>
-        <div class="col" colspan="2"><h5>{{subTipo3}}</h5></div>
-        <div class="col" colspan="2"><h5>{{subTipo4}}</h5></div>
-       
-      </div>
-    </div>
-
-    <div class="result-question">
-      <div class="row">
-        <div class="col-12"><h5>Personalidad Tipo {{subTipo1}}{{subTipo2}}{{subTipo3}}{{subTipo4}} </h5></div>
-      </div>
-      <div class="row">
-        <div class="col-12"> <textarea disabled= true class="form-control" id="exampleFormControlTextarea5" rows="3">{{diagnosticoPersonalidad}}</textarea></div>
-      </div>
-     
-    </div>
   </div>
   <hr />
   <div *ngIf="mode!='result' && mode!='intro'">
-    <button class="btn btn-info" (click)="mode = 'quiz'">Quiz</button>
-    <button class="btn btn-warning" (click)="mode = 'review'">Review</button>
-    <button class="btn btn-primary" (click)="onSubmit();">Submit Quiz</button>
+    <button class="btn" style="background-color:#beca5c" (click)="mode = 'quiz'">Quiz</button>
+    <button class="btn " style="background-color:#f4d160" (click)="mode = 'review'">Review</button>
+    <button class="btn"  style="background-color:#28527a; color: white"  (click)="onSubmit();">Submit Quiz</button>
   </div>
 </div>
